@@ -121,6 +121,7 @@ modrinth.com##.info-wrapper
 files.librus.pl/img/*$image
 portal.librus.pl##.widget-portal--rodzina.widget-portal
 portal.librus.pl##.widget-container
+portal.librus.pl##.OEUM
 
 ! e-z.host - QOL Tweak
 e-z.host###__next
@@ -150,4 +151,16 @@ wolnelektury.pl###book-text > .with-image.dynamic-insert
 ! support.microsoft.com - Block Adverts
 support.microsoft.com##.ucsRailContainer.col-1-4
 support.microsoft.com##.prrColumnWrapper
+
+! linuxtracker.org - Block Donate
+linuxtracker.org##p > b
+||linuxtracker.org/style/Linuxtracker.New/images/catbg_01.jpg$image
+
+! Teams - Block annoying popups
+teams.live.com##.show-highlight.bottom-position.app-bar-button.discover-apps-button
+teams.live.com##li.app-list-item > .app-bar-link.ts-sym
+teams.live.com##.app-bar-button.popup-button.app-bar-link.ts-sym
+
+! modrinth.com - Block Donation
+modrinth.com##.content-wrapper
 
