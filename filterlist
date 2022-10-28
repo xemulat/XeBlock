@@ -104,6 +104,7 @@
 ||ip-tracker.org^$important,all
 ||ip-puller.com^$important,all
 ||tiny.cc^$document,important
+||adf.ly^$important,all
 
 ! pypi.org - Block Notification bar
 pypi.org##.notification-bar--banner.notification-bar
