@@ -1,6 +1,6 @@
 ! Title: Xem's QOL filters
 ! Expires: 3 days
-! Last modified: 19.10.2022
+! Last modified: 18.12.2022
 ! Homepage: https://github.com/xemulat/XeBlock
 ! Contribute: https://github.com/xemulat/XeBlock/issues
 ! License: https://github.com/xemulat/XeBlock/blob/main/LICENSE
@@ -119,10 +119,23 @@ modrinth.com##.info-popup-wrap
 modrinth.com##.info-wrapper
 
 ! librus.pl - Block annoying content and ads
+||files.librus.pl/art/21/09/4/aplikacja_librus_mobilne_dodatki_eusprawiedliwienia_db_*LR.jpg$image
+||files.librus.pl/art/21/09/4/r_aplikacja_mobilna_librus_komfort_Recta_*LR.jpg$image
 files.librus.pl/img/*$image
+portal.librus.pl##.KMWHIHNL
 portal.librus.pl##.widget-portal--rodzina.widget-portal
 portal.librus.pl##.widget-container
 portal.librus.pl##.OEUM
+portal.librus.pl##.btn-navbar.btn-green.btn.shop-button
+portal.librus.pl##.search
+portal.librus.pl##.navbar_menu
+portal.librus.pl###articles-slider
+portal.librus.pl##.article-list > div.row
+portal.librus.pl##.EYAOSPJWYU
+portal.librus.pl##.footer__column--social.footer__column
+portal.librus.pl##.footer__column--logo.footer__column
+portal.librus.pl###third-nav-column
+portal.librus.pl##.button-more-container
 
 ! e-z.host - QOL Tweak
 e-z.host###__next
@@ -165,3 +178,54 @@ teams.live.com##.app-bar-button.popup-button.app-bar-link.ts-sym
 ! modrinth.com - Block Donation
 modrinth.com##.content-wrapper
 
+! karierawfinansach.pl - QOL
+www.karierawfinansach.pl##.cookies.row.width.equal
+www.karierawfinansach.pl##.topic-of-week.column.tablet.only.computer.floated.right.wide.five
+www.karierawfinansach.pl##.no-mobile.site-partner-wrapper.column.wide.five
+www.karierawfinansach.pl##.divider.column
+www.karierawfinansach.pl###top-menu > .container.ui > .menu.right > a.item
+
+! synergia.librus.pl - QOL
+synergia.librus.pl##.student.welcome-page.static.container
+synergia.librus.pl###footer
+synergia.librus.pl##[href="/help/D251"]
+
+! pythonpool.com - No Captcha
+||www.google.com/recaptcha/api2/bframe$subdocument
+||www.google.com/recaptcha/api2/bframe?hl=en&v=pn3ro1xnhf4yB8qmnrhh9iD2&k=6Lc8l1obAAAAAO2zK9sdmsSThUglOgnwYA10Gz8T$subdocument
+www.pythonpool.com##div:nth-of-type(9)
+
+! cda.pl - No Ads
+||static.cda.pl/bcg217/films/podziemie-strachu/podziemie-strachu-1327b.jpg?v=79o$image
+||static.cda.pl/bcg217/films/podziemie-strachu/podziemie-strachu-1327b.jpg?v=79o$image
+
+! allegro.pl - No Promos
+allegro.pl##.munh_56.m3h2_56.mjru_ua > .mj7u_0.mnjl_0.mq1m_0.mp7g_f6
+allegro.pl##._ea10c_EKBoq.mnyp_co.mlkp_ag.mx7m_1.mpof_z0_x.mpof_5r.mjb5_1.mp7g_oh
+allegro.pl##._31b7f_3YvrR > div
+allegro.pl##._31b7f_3YvrR
+allegro.pl##._31b7f_1GVRK.mpof_z0_x.mpof_5r.mh36_24.mj7a_24.mvrt_24.mg9e_24._31b7f_2EAjV.mjyo_6x.mse2_k4.msts_9u
+allegro.pl##.mh36_24.mj7a_24.mvrt_24.mg9e_24._31b7f_2KM9f._31b7f_2EAjV.mjyo_6x.mse2_k4.msts_9u
+allegro.pl##._31b7f_1geLL.mvrt_24.mh36_24.mg9e_16.mp7g_oh.mpof_z0_x.mpof_5r._31b7f_2EAjV.mjyo_6x.mse2_k4.msts_9u
+allegro.pl##.msts_n7._17d9e_Ww88Y.opbox-sheet-949af.opbox-sheet > div
+allegro.pl##.msts_n7._17d9e_Ww88Y.opbox-sheet-689b7.opbox-sheet > div
+
+! openspeedtest.com - QOL
+openspeedtest.com###right-ll-two
+openspeedtest.com###rightArea
+
+! bryk.pl - Fuck ads
+www.bryk.pl##.hidden-print.hidden-sm.hidden-xs.col-md-4
+www.bryk.pl##.inpl-tout-link
+www.bryk.pl##.inpl-tout-lfbwi1bb2.inpl-tout
+www.bryk.pl##div.hidden-xs.space-md:nth-of-type(11)
+www.bryk.pl##div.hidden-xs.space-md:nth-of-type(8)
+www.bryk.pl##.add-question-wrapper
+www.bryk.pl##.recommended-links
+www.bryk.pl##.recommended-title > h4
+||assetsbryk.iplsc.com/bundles/index/i/hero-bg.jpg$image
+||assetsbryk.iplsc.com/bundles/index/i/hero-bg.jpg$image
+||assetsbryk.iplsc.com/bundles/index/i/hero-bg.jpg$image
+www.bryk.pl##.main-footer
+www.bryk.pl##.clarification
+www.bryk.pl##.inpl-tout-gl5sn1gr3.inpl-tout
