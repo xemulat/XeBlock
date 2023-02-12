@@ -94,7 +94,7 @@
 ||ipgrabber.ru^$important,all
 ||ipgraber.ru^$important,all
 
-#Other IP Grabbers
+# Other IP Grabbers
 ||atharori.net^$important,all
 ||gyazo.nl^$important,all
 ||yȯutube.com^$important,all
@@ -105,6 +105,25 @@
 ||ip-puller.com^$important,all
 ||tiny.cc^$document,important
 ||adf.ly^$important,all
+
+# Trackers
+||pagead2.googlesyndication.com^$important,all
+||doubleclick.net^$important,all
+||ad.doubleclick.net^$important,all
+||static.doubleclick.net^$important,all
+||m.doubleclick.net^$important,all
+||mediavisor.doubleclick.net^$important,all
+||analyticsengine.s3.amazonaws.com^$important,all
+||advice-ads.s3.amazonaws.com^$important,all
+||affiliationjs.s3.amazonaws.com^$important,all
+||advertising-api-eu.amazon.com^$important,all
+||amazonaax.com^$important,all
+||amazonclix.com^$important,all
+||ads.facebook.com^$important,all
+||ads-api.twitter.com^$important,all
+||ads.pinterest.com^$important,all
+||ads.reddit.com^$important,all
+||ads.youtube.com^$important,all
 
 ! pypi.org - Block Notification bar
 pypi.org##.notification-bar--banner.notification-bar
@@ -177,6 +196,7 @@ teams.live.com##.app-bar-button.popup-button.app-bar-link.ts-sym
 
 ! modrinth.com - Block Donation
 modrinth.com##.content-wrapper
+modrinth.com##.modrinth-content-wrapper
 
 ! karierawfinansach.pl - QOL
 www.karierawfinansach.pl##.cookies.row.width.equal
@@ -189,6 +209,15 @@ www.karierawfinansach.pl###top-menu > .container.ui > .menu.right > a.item
 synergia.librus.pl##.student.welcome-page.static.container
 synergia.librus.pl###footer
 synergia.librus.pl##[href="/help/D251"]
+portal.librus.pl##.article-container
+portal.librus.pl##.common__main.common__container
+portal.librus.pl##.common__navbar__search
+portal.librus.pl##.common__navbar__accessible
+portal.librus.pl##.container-main--portal.container-main
+||files.librus.pl/art/*$image
+
+! Grammarist.com
+grammarist.com##.dpsp-has-button-icon-animation.dpsp-networks-btns-sidebar.dpsp-networks-btns-share.dpsp-networks-btns-wrapper
 
 ! pythonpool.com - No Captcha
 ||www.google.com/recaptcha/api2/bframe$subdocument
@@ -213,6 +242,9 @@ allegro.pl##.msts_n7._17d9e_Ww88Y.opbox-sheet-689b7.opbox-sheet > div
 ! openspeedtest.com - QOL
 openspeedtest.com###right-ll-two
 openspeedtest.com###rightArea
+
+! YouTube - No Ads
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
 
 ! bryk.pl - Fuck ads
 www.bryk.pl##.hidden-print.hidden-sm.hidden-xs.col-md-4
