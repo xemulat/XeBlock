@@ -1,143 +1,132 @@
 ! Title: Xem's QOL filters
 ! Expires: 3 days
-! Last modified: 18.12.2022
+! Last modified: 30.07.2023
 ! Homepage: https://github.com/xemulat/XeBlock
 ! Contribute: https://github.com/xemulat/XeBlock/issues
 ! License: https://github.com/xemulat/XeBlock/blob/main/LICENSE
 
-# Grabify
-||photovault.pics^$important,all
-||bathtub.pics^$important,all
-||foot.wiki^$important,all
-||thisdomainislong.lol^$important,all
-||gamergirl.pro^$important,all
-||pichost.pics^$important,all
-||picshost.pics^$important,all
-||toldyouso.lol^$important,all
-||toldyouso.pics^$important,all
-||screenshare.pics^$important,all
-||myprivate.pics^$important,all
-||noodshare.pics^$important,all
-||cheapcinema.club^$important,all
-||shhh.lol^$important,all
-||partpicker.shop^$important,all
-||grabify.link^$important,all
-||bmwforum.co^$important,all
-||leancoding.co^$important,all
-||spottyfly.com^$important,all
-||stopify.co^$important,all
-||yoütu.be^$important,all
-||starbucksiswrong.com^$important,all
-||starbucksisbadforyou.com^$important,all
-||bucks.as^$important,all
-||discörd.com^$important,all
-||minecräft.com^$important,all
-||freegiftcards.co^$important,all
-||disçordapp.com^$important,all
-||xda-developers.us^$important,all
-||quickmessage.us^$important,all
-||fortnight.space^$important,all
-||fortnitechat.site^$important,all
-||youshouldclick.us^$important,all
-||joinmy.site^$important,all
-||crabrave.pw^$important,all
-||ajc1.cn^$important,all
-||cnyc99.com^$important,all
-||dxrbc.cn^$important,all
-||hwhssc.cn^$important,all
-||mjzssc.cn^$important,all
-||nnmssc.cn^$important,all
-||tnfbc.cn^$important,all
-||toolce.cn^$important,all
-||zjrbc.cn^$important,all
-||catsnthing.com^$important,all
-||lovebird.guru^$important,all
-||trulove.guru^$important,all
-||dateing.club^$important,all
-||otherhalf.life^$important,all
-||shrekis.life^$important,all
-||datasig.io^$important,all
-||datauth.io^$important,all
-||headshot.monster^$important,all
-||gaming-at-my.best^$important,all
-||progaming.monster^$important,all
-||yourmy.monster^$important,all
-||screenshare.host^$important,all
-||imageshare.best^$important,all
-||screenshot.best^$important,all
-||gamingfun.me^$important,all
-||catsnthings.fun^$important,all
-||curiouscat.club^$important,all
-||rëddït.com^$important,all
-||yoütu.be^$important,all
-||xda-developers.us^$important,all
-||särahah.eu^$important,all
-||särahah.pl^$important,all
-||xda-developers.io^$important,all
-||watches-my.stream^$important,all
-||alanlindsay.net^$important,all
-||asianrbtrade.net^$important,all
-||myprivate.pics^$important,all
+# Block Google Android tracking
+||infinitedata-pa.googleapis.com^
+||cryptauthenrollment.googleapis.com^
+||cryptauthenrollment.googleapis.com^
+||digitalassetlinks.googleapis.com^
+||firebaseinstallations.googleapis.com^
+||people-pa.googleapis.com^
+||people-pa.googleapis.com^
+||android.googleapis.com^
 
-# IPLogger
-||iplogger.org^$important,all
-||iplogger.com^$important,all
-||iplogger.ru^$important,all
-||2no.co^$important,all
-||yip.su^$important,all
-||mapper.info^$important,all
-||ezstat.ru^$important,all
-||02ip.ru^$important,all
-||iplo.ru^$important,all
-||iplis.ru^$important,all
-||iplogger.info^$important,all
-||ipgrabber.ru^$important,all
-||ipgraber.ru^$important,all
+# Block Google firebase tracking & mtalk stuff (android tracking)
+||firebase-settings.crashlytics.com^
+||*mtalk*google.com^
+||*firebase*.*google*.com^
+||suggestqueries.google.com^
 
-# Other IP Grabbers
-||atharori.net^$important,all
-||gyazo.nl^$important,all
-||yȯutube.com^$important,all
-||ikwyd.com^$important,all
-||paypal.sellbitcoins.com^$important,all
-||postimage.co^$important,all
-||ip-tracker.org^$important,all
-||ip-puller.com^$important,all
-||tiny.cc^$document,important
-||adf.ly^$important,all
+# Block Xiaomi tracking
+||*fr*app*chat*amazonaws.com^
+||kinesis.us-east-1.amazonaws.com^
+||fr-resolver*.amazonaws.com^
 
-# Trackers
-||pagead2.googlesyndication.com^$important,all
-||doubleclick.net^$important,all
-||ad.doubleclick.net^$important,all
-||static.doubleclick.net^$important,all
-||m.doubleclick.net^$important,all
-||mediavisor.doubleclick.net^$important,all
-||analyticsengine.s3.amazonaws.com^$important,all
-||advice-ads.s3.amazonaws.com^$important,all
-||affiliationjs.s3.amazonaws.com^$important,all
-||advertising-api-eu.amazon.com^$important,all
-||amazonaax.com^$important,all
-||amazonclix.com^$important,all
-||ads.facebook.com^$important,all
-||ads-api.twitter.com^$important,all
-||ads.pinterest.com^$important,all
-||ads.reddit.com^$important,all
-||ads.youtube.com^$important,all
+# Block Xioami communication
+||*.xiaomi*^
+||*.mi.*^
+||*fr*.xiaomi.net^
+||*.miui.com^
+||global.market.xiaomi.com^
+||*.xiaomi.*^
 
-! pypi.org - Block Notification bar
+# Remove YouTube anti-adblock popup | Credit - AdamWr @ AdGuard
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
+
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
+
+# ############################################
+# QOL TWEAKS
+
+# pypi.org
 pypi.org##.notification-bar--banner.notification-bar
 
-! minehut.com - Block auto-playing video
+# minehut.com - Block auto-playing video
 minehut.com##.jw-reset.jw-video
 minehut.com##.jw-reset.jw-media
 minehut.com##.jw-reset.jw-wrapper > .jw-reset.jw-aspect
 
-! modrinth.com - Block 
+# e-z.host
+e-z.host###__next
+
+# brainly.pl
+brainly.pl##.ExpandedBottomBannerContent-module__banner--YcyrN
+
+# speedtest.net
+speedtest.net##.ispComponent > div > .result-data
+speedtest.net##.ispComponent > div > .result-label
+speedtest.net##.js-data-isp.result-label
+speedtest.net##.js-data-ip.result-data
+
+# linuxtracker.org
+linuxtracker.org##p > b
+||linuxtracker.org/style/Linuxtracker.New/images/catbg_01.jpg$image
+
+# Teams
+teams.live.com##.show-highlight.bottom-position.app-bar-button.discover-apps-button
+teams.live.com##li.app-list-item > .app-bar-link.ts-sym
+teams.live.com##.app-bar-button.popup-button.app-bar-link.ts-sym
+
+# karierawfinansach.pl
+www.karierawfinansach.pl##.cookies.row.width.equal
+www.karierawfinansach.pl##.topic-of-week.column.tablet.only.computer.floated.right.wide.five
+www.karierawfinansach.pl##.no-mobile.site-partner-wrapper.column.wide.five
+www.karierawfinansach.pl##.divider.column
+www.karierawfinansach.pl###top-menu > .container.ui > .menu.right > a.item
+
+# synergia.librus.pl
+synergia.librus.pl##.student.welcome-page.static.container
+synergia.librus.pl###footer
+synergia.librus.pl##[href="/help/D251"]
+portal.librus.pl##.article-container
+portal.librus.pl##.common__main.common__container
+portal.librus.pl##.common__navbar__search
+portal.librus.pl##.common__navbar__accessible
+portal.librus.pl##.container-main--portal.container-main
+||files.librus.pl/art/*$image
+
+# Grammarist.com
+grammarist.com##.dpsp-has-button-icon-animation.dpsp-networks-btns-sidebar.dpsp-networks-btns-share.dpsp-networks-btns-wrapper
+
+# pythonpool.com
+||www.google.com/recaptcha/api2/bframe$subdocument
+||www.google.com/recaptcha/api2/bframe?hl=en&v=pn3ro1xnhf4yB8qmnrhh9iD2&k=6Lc8l1obAAAAAO2zK9sdmsSThUglOgnwYA10Gz8T$subdocument
+www.pythonpool.com##div:nth-of-type(9)
+
+# allegro.pl
+allegro.pl##.munh_56.m3h2_56.mjru_ua > .mj7u_0.mnjl_0.mq1m_0.mp7g_f6
+allegro.pl##._ea10c_EKBoq.mnyp_co.mlkp_ag.mx7m_1.mpof_z0_x.mpof_5r.mjb5_1.mp7g_oh
+allegro.pl##._31b7f_3YvrR > div
+allegro.pl##._31b7f_3YvrR
+allegro.pl##._31b7f_1GVRK.mpof_z0_x.mpof_5r.mh36_24.mj7a_24.mvrt_24.mg9e_24._31b7f_2EAjV.mjyo_6x.mse2_k4.msts_9u
+allegro.pl##.mh36_24.mj7a_24.mvrt_24.mg9e_24._31b7f_2KM9f._31b7f_2EAjV.mjyo_6x.mse2_k4.msts_9u
+allegro.pl##._31b7f_1geLL.mvrt_24.mh36_24.mg9e_16.mp7g_oh.mpof_z0_x.mpof_5r._31b7f_2EAjV.mjyo_6x.mse2_k4.msts_9u
+allegro.pl##.msts_n7._17d9e_Ww88Y.opbox-sheet-949af.opbox-sheet > div
+allegro.pl##.msts_n7._17d9e_Ww88Y.opbox-sheet-689b7.opbox-sheet > div
+
+# openspeedtest.com
+openspeedtest.com###right-ll-two
+openspeedtest.com###rightArea
+
+# ############################################
+# ADDITIONAL ADBLOCKING RULES
+
+# modrinth.com
 modrinth.com##.info-popup-wrap
 modrinth.com##.info-wrapper
+modrinth.com##.content-wrapper
+modrinth.com##.modrinth-content-wrapper
 
-! librus.pl - Block annoying content and ads
+# librus.pl
 ||files.librus.pl/art/21/09/4/aplikacja_librus_mobilne_dodatki_eusprawiedliwienia_db_*LR.jpg$image
 ||files.librus.pl/art/21/09/4/r_aplikacja_mobilna_librus_komfort_Recta_*LR.jpg$image
 files.librus.pl/img/*$image
@@ -156,19 +145,7 @@ portal.librus.pl##.footer__column--logo.footer__column
 portal.librus.pl###third-nav-column
 portal.librus.pl##.button-more-container
 
-! e-z.host - QOL Tweak
-e-z.host###__next
-
-! brainly.pl - QOL Tweak
-brainly.pl##.ExpandedBottomBannerContent-module__banner--YcyrN
-
-! speedtest.net - No IP leaking
-speedtest.net##.ispComponent > div > .result-data
-speedtest.net##.ispComponent > div > .result-label
-speedtest.net##.js-data-isp.result-label
-speedtest.net##.js-data-ip.result-data
-
-! wolnelektury.pl block "support us" banner
+# wolnelektury.pl
 wolnelektury.pl###annoy-banner-36 > .annoy-banner-inner
 wolnelektury.pl##.annoy-banner-style_blackout_full.annoy-banner_blackout.annoy-banner
 wolnelektury.pl###annoy-banner-24 > [href^="https://wolnelektury.pl/towarzystwo/"] > .annoy-banner-inner > .text > p
@@ -178,75 +155,18 @@ wolnelektury.pl###book-text > .with-image.dynamic-insert > [href^="https://wolne
 wolnelektury.pl###book-text > .with-image.dynamic-insert > [href^="https://wolnelektury.pl/towarzystwo/"]
 wolnelektury.pl###book-text > .with-image.dynamic-insert
 
-! All Sites - Blocks
+# *.*
 ###arc-widget-launcher-iframe
 
-! support.microsoft.com - Block Adverts
+# support.microsoft.com
 support.microsoft.com##.ucsRailContainer.col-1-4
 support.microsoft.com##.prrColumnWrapper
 
-! linuxtracker.org - Block Donate
-linuxtracker.org##p > b
-||linuxtracker.org/style/Linuxtracker.New/images/catbg_01.jpg$image
-
-! Teams - Block annoying popups
-teams.live.com##.show-highlight.bottom-position.app-bar-button.discover-apps-button
-teams.live.com##li.app-list-item > .app-bar-link.ts-sym
-teams.live.com##.app-bar-button.popup-button.app-bar-link.ts-sym
-
-! modrinth.com - Block Donation
-modrinth.com##.content-wrapper
-modrinth.com##.modrinth-content-wrapper
-
-! karierawfinansach.pl - QOL
-www.karierawfinansach.pl##.cookies.row.width.equal
-www.karierawfinansach.pl##.topic-of-week.column.tablet.only.computer.floated.right.wide.five
-www.karierawfinansach.pl##.no-mobile.site-partner-wrapper.column.wide.five
-www.karierawfinansach.pl##.divider.column
-www.karierawfinansach.pl###top-menu > .container.ui > .menu.right > a.item
-
-! synergia.librus.pl - QOL
-synergia.librus.pl##.student.welcome-page.static.container
-synergia.librus.pl###footer
-synergia.librus.pl##[href="/help/D251"]
-portal.librus.pl##.article-container
-portal.librus.pl##.common__main.common__container
-portal.librus.pl##.common__navbar__search
-portal.librus.pl##.common__navbar__accessible
-portal.librus.pl##.container-main--portal.container-main
-||files.librus.pl/art/*$image
-
-! Grammarist.com
-grammarist.com##.dpsp-has-button-icon-animation.dpsp-networks-btns-sidebar.dpsp-networks-btns-share.dpsp-networks-btns-wrapper
-
-! pythonpool.com - No Captcha
-||www.google.com/recaptcha/api2/bframe$subdocument
-||www.google.com/recaptcha/api2/bframe?hl=en&v=pn3ro1xnhf4yB8qmnrhh9iD2&k=6Lc8l1obAAAAAO2zK9sdmsSThUglOgnwYA10Gz8T$subdocument
-www.pythonpool.com##div:nth-of-type(9)
-
-! cda.pl - No Ads
+# cda.pl
 ||static.cda.pl/bcg217/films/podziemie-strachu/podziemie-strachu-1327b.jpg?v=79o$image
 ||static.cda.pl/bcg217/films/podziemie-strachu/podziemie-strachu-1327b.jpg?v=79o$image
 
-! allegro.pl - No Promos
-allegro.pl##.munh_56.m3h2_56.mjru_ua > .mj7u_0.mnjl_0.mq1m_0.mp7g_f6
-allegro.pl##._ea10c_EKBoq.mnyp_co.mlkp_ag.mx7m_1.mpof_z0_x.mpof_5r.mjb5_1.mp7g_oh
-allegro.pl##._31b7f_3YvrR > div
-allegro.pl##._31b7f_3YvrR
-allegro.pl##._31b7f_1GVRK.mpof_z0_x.mpof_5r.mh36_24.mj7a_24.mvrt_24.mg9e_24._31b7f_2EAjV.mjyo_6x.mse2_k4.msts_9u
-allegro.pl##.mh36_24.mj7a_24.mvrt_24.mg9e_24._31b7f_2KM9f._31b7f_2EAjV.mjyo_6x.mse2_k4.msts_9u
-allegro.pl##._31b7f_1geLL.mvrt_24.mh36_24.mg9e_16.mp7g_oh.mpof_z0_x.mpof_5r._31b7f_2EAjV.mjyo_6x.mse2_k4.msts_9u
-allegro.pl##.msts_n7._17d9e_Ww88Y.opbox-sheet-949af.opbox-sheet > div
-allegro.pl##.msts_n7._17d9e_Ww88Y.opbox-sheet-689b7.opbox-sheet > div
-
-! openspeedtest.com - QOL
-openspeedtest.com###right-ll-two
-openspeedtest.com###rightArea
-
-! YouTube - No Ads
-www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
-
-! bryk.pl - Fuck ads
+# bryk.pl
 www.bryk.pl##.hidden-print.hidden-sm.hidden-xs.col-md-4
 www.bryk.pl##.inpl-tout-link
 www.bryk.pl##.inpl-tout-lfbwi1bb2.inpl-tout
