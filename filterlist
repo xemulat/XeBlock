@@ -1,6 +1,6 @@
 ! Title: Xem's QOL filters
 ! Expires: 3 days
-! Last modified: 30.07.2023
+! Last modified: 31.07.2023
 ! Homepage: https://github.com/xemulat/XeBlock
 ! Contribute: https://github.com/xemulat/XeBlock/issues
 ! License: https://github.com/xemulat/XeBlock/blob/main/LICENSE
@@ -33,6 +33,11 @@
 ||*.miui.com^
 ||global.market.xiaomi.com^
 ||*.xiaomi.*^
+
+# Block Sentry data collection | Block crash reports
+||*.ingest.sentry.io
+
+# Other modules
 
 # Remove YouTube anti-adblock popup | Credit - AdamWr @ AdGuard
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
